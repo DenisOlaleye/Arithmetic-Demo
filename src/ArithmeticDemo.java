@@ -4,18 +4,18 @@ public class ArithmeticDemo
 {
 	public static void main (String [] args)
 	{
-		int firstNumber;
-		int secondNumber;
-		int sum;
-		int difference;
-		int average;
+		double firstNumber;
+		double secondNumber;
+		double sum;
+		double difference;
+		double average;
 		
 		Scanner input = new Scanner(System.in);
 		
-		System.out.print("Please enter an integer >> ");
-		firstNumber = input.nextInt();
-		System.out.print("Please enter another ineger >> ");
-		secondNumber = input.nextInt();
+		System.out.print("Please enter an double >> ");
+		firstNumber = input.nextDouble();
+		System.out.print("Please enter another double >> ");
+		secondNumber = input.nextDouble();
 		
 		sum = firstNumber + secondNumber;
 		difference = firstNumber - secondNumber;
